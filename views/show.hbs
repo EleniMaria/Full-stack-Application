@@ -1,9 +1,10 @@
-<h1>{{this.title}}</h1>
-
+<h1>{{this.name}}</h1>
+{{!-- still need to load images (not sure if users will be able to have this ability) --}}
     <img src="../public/css/images/{{this.picture}}">
+    <p><b>Name:</b> {{this.name}}</p>
     <p><b>Description:</b> {{this.description}}</p>
-    <p><b>Plants:</b> {{this.ingredients}}</p>
-    <p><b>Instructions:</b> {{this.instructions}}</p>
+     <p><b>URL:</b> {{this.url}}</p>
+    <p><b>Search Tags:</b> {{this.tags}}</p>
     <p><b>Author:</b> {{this.author}}</p>
 
     <a href="/edit/{{this.id}}" class="boo">Edit this Garden Tip</a>

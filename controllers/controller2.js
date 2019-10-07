@@ -1,10 +1,11 @@
 //organize by author/user?
 const express = require('express');
 const router = express.Router();
+// const GardenTip = require('../db/schema');
 //creating routes
 router.get('/', (req, res) => {
   res.send('<h1>Hello fellow gardener!</h1>');
-  res.json({ hello: 'fellow gardener' });
+  // res.json({ hello: 'fellow gardener' });
 });
 //import Model2
 const Model2 = require('../db/models/Model2');

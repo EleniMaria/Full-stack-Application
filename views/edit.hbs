@@ -2,20 +2,24 @@
 
 <form action="/{{this.id}}?_method=put" method="post">
   <p>
+    <label>Name:</label>
+    <input type="text" value="{{this.name}}" name="name" />
+  </p>
+  <p>
     <label>Description:</label>
-    <input type="text" value="{{this.description}}" name="description"/>
+    <input type="text" value="{{this.description}}" name="description" />
   </p>
-    <p>
-    <label>Plant name</label>
-    <input type="text" value="{{this.ingredients}}" name="ingredients"/>
+  <p>
+    <label>Url Link:</label>
+    <input type="text" value="{{this.url}}" name="url" />
   </p>
-    <p>
-    <label>Instructions:</label>
-    <input type="text" value="{{this.instructions}}" name="instructions"/>
+  <p>
+    <label>Search Tags:</label>
+    <input type="text" value="{{this.tags}}" name="tags" />
   </p>
-   <p>
+  <p>
     <label>Author:</label>
-    <input type="text" value="{{this.author}}" name="author"/>
+    <input type="text" value="{{this.author}}" name="author" />
   </p>
   <input type="submit" value="Update" />
 </form>

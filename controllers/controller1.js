@@ -5,7 +5,7 @@ const GardenTip = require('../db/schema');
 //creating routes
 router.get('/', (req, res) => {
   res.send('<h1>Hello Fellow Gardener</h1>');
-  res.json({ hello: 'fellow gardener' });
+  // res.json({ hello: 'fellow gardener' });
 });
 //import Model1
 const Model1 = require('../db/models/Model1');
