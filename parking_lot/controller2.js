@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   // res.json({ hello: 'fellow gardener' });
 });
 //import Model2
-const Model2 = require('../db/models/Model2');
+const Model2 = require('./models/Model2');
 router.get('/', (req, res) => {
   // use this to find all Model2 data
   Model2.find({}).then(model2 => res.json(model2));

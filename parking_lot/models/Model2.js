@@ -1,5 +1,5 @@
 //require mongoose tool
-const mongoose = require('../connection');
+const mongoose = require('../../db/connection');
 //call out Schema Author/user
 const Model2Schema = new mongoose.Schema({
   author: String,
@@ -9,4 +9,4 @@ const Model2Schema = new mongoose.Schema({
 //naming the model
 const Model2 = mongoose.model('Model2', Model2Schema);
 //export new model
-module.export = Model2;
+module.exports = Model2;

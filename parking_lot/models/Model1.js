@@ -1,5 +1,5 @@
 //require mongoose tool
-const mongoose = require('../connection');
+const mongoose = require('../../db/connection');
 //call out Schema Plants
 const Model1Schema = new mongoose.Schema({
   name: String,
@@ -11,4 +11,4 @@ const Model1Schema = new mongoose.Schema({
 //naming the model
 const Model1 = mongoose.model('Model1', Model1Schema);
 //export new model
-module.export = Model1;
+module.exports = Model1;

@@ -6,3 +6,9 @@ This Api provides avid gardeners a way to share links to sites they find interes
 The links can be to plant catalogs, how tos, personal garden photos shared on the web, etc. 
 
 Content is up to the user we just ask that you keep things garden related. 
+
+Project Milestones
+------------------
+Bronze: Creating an application where users can bookmark the garden tip links the want to share. 
+Silver: Create way to query on data.
+Gold: Create user logins and user upload of pictures. 
