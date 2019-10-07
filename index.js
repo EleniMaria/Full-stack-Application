@@ -3,8 +3,11 @@ const express = require('express');
 const app = express();
 //setup parser 
 const parser = require('body-parser');
-app.use(parser.urlencoded({ extended: true }));
+app.use(parser.urlencoded({ useNewUrlParser: true }));
 app.use(parser.json());
+//method Override
+const methodOverride = require("method-override");
+app.use(methodOverride("_method"));
 //setup handlebars
 const hbs = require('express-handlebars');
 app.set('view engine','hbs');
