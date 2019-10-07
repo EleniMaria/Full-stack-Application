@@ -1,0 +1,28 @@
+/* font-family: 'Berkshire Swash', cursive;
+font-family: 'PT Mono', monospace; */
+
+body {
+    background-color: #B6B5B2;
+}
+
+h1, h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+p, a {
+    font-family: 'PT Mono', monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.boo {
+    font-family: 'PT Mono', monospace;
+    color: yellow;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}

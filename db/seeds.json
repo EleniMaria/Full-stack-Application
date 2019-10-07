@@ -1,0 +1,29 @@
+
+  [
+    {"name": "Coreopsis",
+    "description": "Hardy Perennial. Most common color is yellow but it is available in orange, pink or red.",
+    "url": "https://www.thespruce.com/growing-and-using-coreopsis-in-the-flower-garden-1402839",
+    "tags": ["Sunflower", "Perennial", "full-sun", "yellow", "orange", "pink", "red"],
+    "author": "name here"},
+    
+    {
+    "name": "Lily of the Valley",
+    "description": "Spring flower with a lovely smell. Hardy ground cover that will spread over time.",
+    "url": "https://www.gardeningknowhow.com/ornamental/bulbs/lily-of-the-valley/growing-lily-of-the-valley.htm",
+    "tags": ["lily", "lily of the valley", "white","bell flower", "Perennial"],
+    "author": "name here"},
+   
+    {
+    "name": "Geranium",
+    "description": "Lovely houseplant or summer garden addition. The are not freeze tolerant so the are annuals in colder climates.", 
+    "url": "https://www.almanac.com/plant/geraniums",
+    "tags": ["red", "pink", "white", "coral", "variegated", "annual"],
+    "author": "name here"},
+
+    {
+    "name": "Daisy",
+    "description": "Very hardy Perennial. Easy to grow and very recognizable.",
+    "url": "https://www.almanac.com/plant/geraniums",
+    "tags": ["White", "yellow", "Perennial", "cold hardy"],
+    "author": "name here"}
+    ]

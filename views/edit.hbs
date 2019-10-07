@@ -1,0 +1,25 @@
+<h1>Edit {{ this.title }} Gardening Tip:</h1>
+
+<form action="/{{this.id}}?_method=put" method="post">
+  <p>
+    <label>Description:</label>
+    <input type="text" value="{{this.description}}" name="description"/>
+  </p>
+    <p>
+    <label>Plant name</label>
+    <input type="text" value="{{this.ingredients}}" name="ingredients"/>
+  </p>
+    <p>
+    <label>Instructions:</label>
+    <input type="text" value="{{this.instructions}}" name="instructions"/>
+  </p>
+   <p>
+    <label>Author:</label>
+    <input type="text" value="{{this.author}}" name="author"/>
+  </p>
+  <input type="submit" value="Update" />
+</form>
+</br>
+<form action="/{{this.id}}?_method=delete" method="post">
+  <input type="submit" value="Remove">
+</form>

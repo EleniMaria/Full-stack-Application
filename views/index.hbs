@@ -1,0 +1,9 @@
+<h1>Recipes</h1>
+
+<div>
+  {{#each gardenTip }}
+      <h2><a href="/{{this.id}}">{{this.title}}</a></h2>
+  {{/each}}
+</div>
+
+<a href="/new" class="boo">Create New Garden Tip</a>
