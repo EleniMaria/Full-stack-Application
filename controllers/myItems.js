@@ -47,11 +47,10 @@ router.put('/:id', (req, res) => {
 });
 //delete one item
 router.delete('/:id', (req, res) => {
-  GardenTip.findOneAndRemove({ _id: req.params.id })
-    .then(() => {
-      res.redirect('/')
-    })
-})
+  GardenTip.findOneAndRemove({ _id: req.params.id }).then(() => {
+    res.redirect('/');
+  });
+});
 
 //Keep Last
 module.exports = router;
