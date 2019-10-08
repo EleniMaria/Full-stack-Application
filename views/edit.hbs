@@ -1,29 +1,29 @@
-<h1>Edit {{ this.title }} Gardening Tip:</h1>
+<h1>Edit {{ gardenTip.title }} Gardening Tip:</h1>
 
-<form action="/{{this.id}}?_method=put" method="post">
+<form action="/{{gardenTip.id}}?_method=put" method="post">
   <p>
     <label>Name:</label>
-    <input type="text" value="{{this.name}}" name="name" />
+    <input type="text" value="{{gardenTip.name}}" name="name" />
   </p>
   <p>
     <label>Description:</label>
-    <input type="text" value="{{this.description}}" name="description" />
+    <input type="text" value="{{gardenTip.description}}" name="description" />
   </p>
   <p>
     <label>Url Link:</label>
-    <input type="text" value="{{this.url}}" name="url" />
+    <input type="text" value="{{gardenTip.url}}" name="url" />
   </p>
   <p>
     <label>Search Tags:</label>
-    <input type="text" value="{{this.tags}}" name="tags" />
+    <input type="text" value="{{gardenTip.tags}}" name="tags" />
   </p>
   <p>
     <label>Author:</label>
-    <input type="text" value="{{this.author}}" name="author" />
+    <input type="text" value="{{gardenTip.author}}" name="author" />
   </p>
   <input type="submit" value="Update" />
 </form>
 </br>
-<form action="/{{this.id}}?_method=delete" method="post">
+<form action="/{{gardenTip.id}}?_method=delete" method="post">
   <input type="submit" value="Remove">
 </form>

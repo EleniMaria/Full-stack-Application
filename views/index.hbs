@@ -1,9 +1,9 @@
-
 <h1>Garden Tips</h1>
 
 <div>
-  {{#each gardenTip }}
-      <h2><a href="/{{this.id}}">{{this.name}}</a></h2>
+  {{#each gardenTips as |gardenTip| }}
+  
+  <h2><a href="/{{gardenTip.id}}">{{gardenTip.name}}</a></h2>
   {{/each}}
 </div>
 
