@@ -2,27 +2,29 @@
 font-family: 'PT Mono', monospace; */
 
 body {
-    background-color: #B6B5B2;
+  background-color: #b6b5b2;
 }
 
-h1, h2{
-    font-family: 'Berkshire Swash', cursive;
-    color: white;
+h1,
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  color: yellowgreen;
 }
 
-p, a {
-    font-family: 'PT Mono', monospace;
-    color: white;
-    text-decoration: none;
+p,
+a {
+  font-family: 'PT Mono', monospace;
+  color: yellowgreen;
+  text-decoration: none;
 }
 
 .boo {
-    font-family: 'PT Mono', monospace;
-    color: yellowgreen;
-    text-decoration: underline;
+  font-family: 'PT Mono', monospace;
+  color: yellowgreen;
+  text-decoration: underline;
 }
 
 img {
-    max-width: 300px;
-    height: auto;
+  max-width: 300px;
+  height: auto;
 }
