@@ -1,6 +1,6 @@
 <h1>Edit {{ GardenTips.title }} Gardening Tip:</h1>
 
-<form 
+<form action="/" method="POST">
   <p>
     <label>Name:</label>
     <input type="text" value="{{GardenTips.name}}" name="name" />
@@ -21,11 +21,8 @@
     <label>Author:</label>
     <input type="text" value="{{GardenTips.author}}" name="author" />
   </p>
-</form>
 </br>
-
-<form action="/{{GardenTips.id}}?_method=put" method="post">
-<input type="submit" value="Update">
+<button type="submit">Update</button>
 </form>
 </br>
 

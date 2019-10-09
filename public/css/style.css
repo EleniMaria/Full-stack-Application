@@ -8,19 +8,19 @@ body {
 h1,
 h2 {
   font-family: 'Berkshire Swash', cursive;
-  color: yellowgreen;
+ 
 }
 
 p,
 a {
   font-family: 'PT Mono', monospace;
-  color: yellowgreen;
+  color: white;
   text-decoration: none;
 }
 
 .boo {
   font-family: 'PT Mono', monospace;
-  color: yellowgreen;
+  
   text-decoration: underline;
 }
 

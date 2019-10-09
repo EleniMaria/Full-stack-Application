@@ -3,7 +3,7 @@ const GardenTipsSchema = new mongoose.Schema({
   name: String,
   description: String,
   url: String,
-  tags: [String],
+  tags: [Array],
   author: String
 });
 
