@@ -7,7 +7,7 @@ const methodOverride = require('method-override');
 const parser = require('body-parser');
 //find and update (creates new not update)
 const mongoose = require('mongoose');
-mongoose.set('useFindAndUpdate', false);
+mongoose.set('useFindAndUpdate');
 //setup handlebars(keep above controller)
 // const hbs = require('hbs');
 app.set('view engine', 'hbs');

@@ -20,7 +20,7 @@ a {
 
 .boo {
   font-family: 'PT Mono', monospace;
-  
+  color: green;
   text-decoration: underline;
 }
 

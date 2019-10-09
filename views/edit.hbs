@@ -1,31 +1,35 @@
 <h1>Edit {{ GardenTips.title }} Gardening Tip:</h1>
 
-<form action="/" method="POST">
-  <p>
+<form action="/{{GardenTips.id}}?_method=put" method="POST">
+<p>
     <label>Name:</label>
     <input type="text" value="{{GardenTips.name}}" name="name" />
-  </p>
-  <p>
-    <label>Description:</label>
+</p>
+
+<p>
+    <label>Description</label>
     <input type="text" value="{{GardenTips.description}}" name="description" />
-  </p>
-  <p>
-    <label>Url Link:</label>
+</p>
+
+<p>
+    <label>Ur Link:</label>
     <input type="text" value="{{GardenTips.url}}" name="url" />
-  </p>
-  <p>
+</p>
+
+<p>
     <label>Search Tags:</label>
     <input type="text" value="{{GardenTips.tags}}" name="tags" />
-  </p>
-  <p>
+</p>
+
+<p>
     <label>Author:</label>
     <input type="text" value="{{GardenTips.author}}" name="author" />
-  </p>
+</p>
+
 </br>
 <button type="submit">Update</button>
 </form>
 </br>
 
 <form action="/{{GardenTips.id}}?_method=delete" method="post">
-  <input type="submit" value="Remove">
-</form>
+  <input type="submit" value="Remove"></form>
