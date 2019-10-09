@@ -2,8 +2,10 @@
 
 <div>
   {{#each GardenTips as |GardenTips| }}
+
+  <h2><a href="/{{GardenTips.id}}">{{GardenTips.name}}
+  </a></h2>
   
-  <h2><a href="/{{GardenTips.id}}">{{GardenTips.name}}</a></h2>
   {{/each}}
 </div>
 
