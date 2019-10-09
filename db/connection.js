@@ -4,6 +4,12 @@ mongoose.Promise = Promise;
 // set the uri for connecting to our local mongodb
 const mongoURI = 'mongodb://localhost/project2';
 
+if (process.env.NODE_ENV === "production") {
+  mongoURI = process.env.DB_URL;
+} else {
+  mongoURI = "mongodb://localhost/project2";
+}
+
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })
   .then(instance =>

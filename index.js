@@ -30,4 +30,10 @@ app.get("/", (req, res) => {
 });
 
 //Local host(bottom)
-app.listen(8080, () => console.log('We are on Port 8080'));
+// app.listen(8080, () => console.log('We are on Port 8080'));
+
+//heroku
+app.set("port", process.env.PORT || 8080);
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});

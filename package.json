@@ -4,7 +4,8 @@
     "description": "Garden Tips API",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error no test specified\" && exit1"
+        "test": "echo \"Error no test specified\" && exit1",
+        "start": "node index.js"
     },
     "author": "Eleni Goranites",
     "license": "ISC",
