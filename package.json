@@ -1,21 +1,30 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "description": "Garden Tips API",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error no test specified\" && exit1",
-        "start": "node index.js"
-    },
-    "author": "Eleni Goranites",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "cors": "^2.8.5",
-        "express": "^4.17.1",
-        "express-handlebars": "^3.1.0",
-        "hbs": "^4.0.5",
-        "method-override": "^3.0.0",
-        "mongoose": "^5.7.3"
-    }
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Garden Tips API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error no test specified\" && exit1",
+    "start": "node index.js"
+  },
+  "author": "Eleni Goranites",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "hbs": "^4.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleniMaria/Full-stack-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EleniMaria/Full-stack-Application/issues"
+  },
+  "homepage": "https://github.com/EleniMaria/Full-stack-Application#readme"
 }

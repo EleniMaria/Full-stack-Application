@@ -9,7 +9,6 @@ if (process.env.NODE_ENV === "production") {
 } else {
   mongoURI = "mongodb://localhost/project2";
 }
-
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })
   .then(instance =>
