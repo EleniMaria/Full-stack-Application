@@ -20,7 +20,7 @@ app.use(methodOverride('_method'));
 const cors = require('cors');
 app.use(cors());
 //CSS
-app.use('/', express.static( __dirname + '/public'));
+app.use('/assets', express.static( __dirname + '/assets'));
 //controllers setup(keep last)
 const myItemsController = require('./controllers/myItems');
 app.use("/",myItemsController);

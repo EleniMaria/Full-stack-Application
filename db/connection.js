@@ -1,13 +1,13 @@
 //import mongoose from node_modules
-const mongoose = require('mongoose');
+let mongoose = require('mongoose');
 mongoose.Promise = Promise;
 // set the uri for connecting to our local mongodb
-const mongoURI = 'mongodb://localhost/project2';
+let mongoURI = 'mongodb://localhost/gardentips';
 
 if (process.env.NODE_ENV === "production") {
   mongoURI = process.env.DB_URL;
 } else {
-  mongoURI = "mongodb://localhost/project2";
+  mongoURI = 'mongodb://localhost/gardentips';
 }
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })

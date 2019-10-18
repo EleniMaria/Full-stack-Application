@@ -4,7 +4,8 @@ const GardenTipsSchema = new mongoose.Schema({
   description: String,
   url: String,
   tags: [Array],
-  author: String
+  author: String,
+  picture: String
 });
 
 const GardenTips = mongoose.model('gardentips', GardenTipsSchema);

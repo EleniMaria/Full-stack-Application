@@ -1,10 +1,12 @@
 <h1>Garden Tips: {{GardenTips.name}}</h1>
 {{!-- still need to load images (not sure if users will be able to have this ability) --}}
-<img src="../public/css/images/{{GardenTip.picture}}">
+<img src="assets/images/{{GardenTips.picture}}" alt="picture of garden tip">
 <p><b>Name:</b> {{GardenTips.name}}</p>
 <p><b>Description:</b> {{GardenTips.description}}</p>
 <p><b>URL:</b> {{GardenTips.url}}</p>
 <p><b>Search Tags:</b> {{GardenTips.tags}}</p>
 <p><b>Author:</b> {{GardenTips.author}}</p>
 
-<a href="/edit/{{GardenTips.id}}" class="boo">Edit this Garden Tip</a>
+<button><a href="/edit/{{GardenTips.id}}" class="boo">Edit this Garden Tip</a></button>
+</b>
+<button><a href="/" class="boo">Return to Home Page</a></button>
